@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-plugin-styled-components": "^1.6.0",
+    "styled-components": "^3.4.5"
+  },
+  "scripts": {
+    "broken": "BABEL_ENV=slow babel input.js",
+    "slow": "BABEL_ENV=slow babel nostyled.js",
+    "fast": "BABEL_ENV=fast babel input.js"
+  }
+}

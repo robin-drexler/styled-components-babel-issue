@@ -1,0 +1,10 @@
+{
+  "env": {
+    "slow": {
+      "plugins": [["babel-plugin-styled-components", { "ssr": true }]]
+    },
+    "fast": {
+      "plugins": []
+    }
+  }
+}
